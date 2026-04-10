@@ -16,9 +16,9 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${scrolled ? 'bg-background/95 backdrop-blur-md shadow-md border-b border-accent/20' : 'bg-transparent'}`}>
+    <nav className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${scrolled ? 'bg-background/95 backdrop-blur-md shadow-md border-b border-accent/20' : 'bg-black/20 backdrop-blur-sm'}`}>
       <div className="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
-        <a href="#" className="font-heading text-lg text-primary font-semibold">
+        <a href="#" className={`font-heading text-lg font-semibold transition-colors duration-500 ${scrolled ? 'text-primary' : 'text-white'}`}>
           Memories by Abhi
         </a>
         <div className="flex gap-6">
@@ -26,7 +26,7 @@ const Navbar = () => {
             <a
               key={link.href}
               href={link.href}
-              className="font-body text-sm text-muted-foreground hover:text-primary transition-colors duration-300"
+              className={`font-body text-sm transition-colors duration-300 ${scrolled ? 'text-muted-foreground hover:text-primary' : 'text-white/80 hover:text-white'}`}
             >
               {link.label}
             </a>
