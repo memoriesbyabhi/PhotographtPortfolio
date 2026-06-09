@@ -35,6 +35,9 @@ const GallerySection = () => {
           <p className="text-muted-foreground font-body max-w-xl mx-auto">
             Browse through curated collections of our finest work
           </p>
+          <p className="font-body text-sm md:text-base text-accent mt-3">
+            Now offering 24–48 hour delivery
+          </p>
         </div>
 
         {/* Gallery cards with images */}
