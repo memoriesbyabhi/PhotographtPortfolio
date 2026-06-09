@@ -1,5 +1,5 @@
 import logo from '@/assets/logo.jpg';
-import heroBg from '@/assets/hero-bg.jpg';
+import heroBg from '@/assets/MemoriesByAbhi_PortfolioImage.png';
 import mandala from '@/assets/mandala-ornament.png';
 import goldDivider from '@/assets/gold-divider.png';
 
