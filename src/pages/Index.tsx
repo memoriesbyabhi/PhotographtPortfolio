@@ -1,4 +1,5 @@
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
+import AnnouncementRibbon from '@/components/AnnouncementRibbon';
 import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import GallerySection from '@/components/GallerySection';
@@ -12,6 +13,7 @@ const Index = () => {
 
   return (
     <div ref={containerRef} className="min-h-screen">
+      <AnnouncementRibbon />
       <Navbar />
       <HeroSection />
       <GallerySection />

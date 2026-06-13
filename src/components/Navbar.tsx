@@ -16,7 +16,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${scrolled ? 'bg-background/95 backdrop-blur-md shadow-md border-b border-accent/20' : 'bg-black/20 backdrop-blur-sm'}`}>
+    <nav className={`fixed top-[38px] left-0 right-0 z-40 transition-all duration-500 ${scrolled ? 'bg-background/95 backdrop-blur-md shadow-md border-b border-accent/20' : 'bg-black/20 backdrop-blur-sm'}`}>
       <div className="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
         <a href="#" className={`font-heading text-lg font-semibold transition-colors duration-500 ${scrolled ? 'text-primary' : 'text-white'}`}>
           Memories by Abhi

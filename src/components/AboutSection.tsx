@@ -15,10 +15,14 @@ const AboutSection = () => {
         <div className="animate-on-scroll">
           <h2 className="font-heading text-3xl md:text-5xl text-primary mb-4">About Us</h2>
           <div className="gold-divider w-32 mx-auto mb-8" />
+          <p className="font-heading text-xl md:text-2xl text-primary italic mb-6">
+            Every frame holds a heartbeat.
+          </p>
+          <p className="text-muted-foreground font-body text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-6">
+            At <span className="text-primary font-medium">Memories by Abhi</span>, we don't just photograph moments. We preserve the way your mother smiled when she saw you walk in. The quiet glance between two people who chose each other. The details you were too present to notice.
+          </p>
           <p className="text-muted-foreground font-body text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-12">
-            At <span className="text-primary font-medium">Memories by Abhi</span>, we believe every moment tells a story. 
-            Specializing in Indian traditional celebrations and American events, we bring an artistic eye 
-            and heartfelt passion to every frame — preserving your most cherished memories for generations to come.
+            From sacred Indian celebrations to intimate American milestones, every image is crafted with intention, delivered with care, and yours to hold within 48 hours.
           </p>
         </div>
 

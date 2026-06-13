@@ -1,7 +1,6 @@
 import logo from '@/assets/logo.jpg';
 import heroBg from '@/assets/MemoriesByAbhi_PortfolioImage.png';
 import mandala from '@/assets/mandala-ornament.png';
-import goldDivider from '@/assets/gold-divider.png';
 
 const HeroSection = () => {
   return (
@@ -30,10 +29,6 @@ const HeroSection = () => {
           Memories by Abhi
         </h1>
 
-        {/* Ornamental divider */}
-        <div className="my-4 opacity-0 animate-fade-in" style={{ animationDelay: '0.6s' }}>
-          <img src={goldDivider} alt="" className="w-40 md:w-56 h-auto" />
-        </div>
 
         {/* Tagline */}
         <p className="font-heading text-base md:text-xl text-white/80 italic text-center opacity-0 animate-fade-up" style={{ animationDelay: '0.8s' }}>
