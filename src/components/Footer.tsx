@@ -16,7 +16,7 @@ const Footer = () => {
         
         <h3 className="font-heading text-xl mb-2">Memories by Abhi</h3>
         <p className="font-heading text-sm italic text-primary-foreground/70 mb-6">
-          Capturing Timeless Indian Traditions
+          Stories Told in Light, Preserved for Generations
         </p>
 
         <a

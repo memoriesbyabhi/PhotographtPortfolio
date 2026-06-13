@@ -8,7 +8,7 @@ const AnnouncementRibbon = () => {
     >
       <p className="font-heading text-accent text-center leading-snug text-[11px] md:text-[13px] tracking-[0.15em]">
         <span className="opacity-60 mx-2">◆</span>
-        Your gallery, delivered within 24 to 48 hours. Always.
+        Every frame hand-selected, AI-refined, and delivered within 24 to 48 hours
         <span className="opacity-60 mx-2">◆</span>
       </p>
     </div>
