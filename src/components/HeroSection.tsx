@@ -32,7 +32,7 @@ const HeroSection = () => {
 
         {/* Tagline */}
         <p className="font-heading text-base md:text-xl text-white/80 italic text-center opacity-0 animate-fade-up" style={{ animationDelay: '0.8s' }}>
-          Capturing Timeless Indian Traditions
+          Stories Told in Light, Preserved for Generations
         </p>
 
         {/* Subtitle — photography focus */}
